@@ -27,10 +27,13 @@ nav .navbar-collapse .navbar-nav .nav-item .nav-link {
 /* SECTION */
 .textoempresa{
     color: white;
+    margin-bottom: 15px;
+    font-size: 20px;
 }
 
 .h1{
     color: white;
+    margin-bottom: 15px;
 }
 
 /* SECTION 2 INDEX LISTAS */
@@ -70,7 +73,41 @@ nav .navbar-collapse .navbar-nav .nav-item .nav-link {
 }
 
 
+/* FOOTER */
+
+footer{
+    height: 100%;
+    background-color: black;
+}
+
+.logofooter{
+    height: 180px;
+    width: 180px;
+    
+    /* margin-top: 100px; */
+}
+
+.copytext{
+    color: white;
+    /* margin-bottom: px; */
+}
 
 
+.footerwpp{
 
+    height: 60px;
+    width: 60px;
+    padding: 10px;
+}
 
+.footerinstagram{
+    height: 60px;
+    width: 60px;
+    padding: 10px;
+}
+
+.footermail{
+    height: 60px;
+    width: 60px; 
+    padding: 10px;
+}
