@@ -135,7 +135,7 @@ main p{
 /* SECTION SERVICIOS */
 
 .h1{
-    color: white;
+    color: black;
     margin-bottom: 15px;
 }
 
@@ -194,6 +194,8 @@ main p{
     margin: 10px;
 }
 
-
+.infocontactos{
+    color: white;
+}
 
 
