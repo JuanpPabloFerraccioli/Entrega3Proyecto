@@ -124,3 +124,49 @@ footer div .logosredes{
 }
 
 /* PAGINA SERVICIOS */
+
+main p{
+    color: white;
+    font-size: 18px;
+    margin-top: 15px;
+
+}
+
+/* SECTION SERVICIOS */
+
+.h1{
+    color: white;
+    margin-bottom: 15px;
+}
+
+.txtejecutivo{
+    margin-top: 15px;
+}
+
+.h2{
+    color: white;
+    margin-bottom: 15px;
+}
+
+.txtsanitario{
+    margin-top: 15px;
+}
+
+.h3{
+    color: white;
+    margin-bottom: 15px;
+}
+
+.textcarga{
+    margin-top: 15px;
+}
+
+.h4{
+    color: white;
+    margin-bottom: 15px;
+}
+
+.txtincendio{
+    margin-top: 15px;
+}
+
