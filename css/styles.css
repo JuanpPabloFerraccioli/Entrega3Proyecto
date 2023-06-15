@@ -16,10 +16,11 @@ body{
 /* NAV */
 
 
-nav .navbar-collapse .navbar-nav .nav-item .nav-link {
+nav .navbar-collapse .navbar-nav .nav-item .nav-link{
     color: white;
     font-size: 28px;
     margin: 10px;
+    
 }
 
 /* MAIN */
@@ -257,7 +258,12 @@ main div p{
 
 
 @media screen and (max-width:576px){
-
+.learindex{
+width: 90%;
+}
+.fotocrew{
+    width: 90%;
+}
 }
 
 
