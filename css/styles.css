@@ -1,270 +1,220 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Satisfy&display=swap');
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-    
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&family=Satisfy&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
 }
 
-body{
-    background-color:#6C9BCF;;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif 54px;
+body {
+  background-color: #6C9BCF;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif 54px;
 }
 
 /* INDEX */
 /* HEADER */
 /* NAV */
-
-
-nav .navbar-collapse .navbar-nav .nav-item .nav-link{
-    color: white;
-    font-size: 28px;
-    margin: 10px;
-    
+header nav .navbar-collapse .navbar-nav .nav-item .nav-link {
+  color: white;
+  font-size: 28px;
+  margin: 10px;
 }
 
 /* MAIN */
 /* SECTION */
-.textoempresa{
-    color: white;
-    margin-bottom: 15px;
-    font-size: 20px;
+main {
+  /* SECTION 2 INDEX LISTAS */
 }
-
-.h1{
-    color: white;
-    margin-bottom: 15px;
+main .textoempresa {
+  color: white;
+  margin-bottom: 15px;
+  font-size: 20px;
 }
-
-/* SECTION 2 INDEX LISTAS */
-
-.listasindex{
-    color: white;
-    list-style: none;
+main .h1 {
+  color: white;
+  margin-bottom: 15px;
 }
-
-
-
-.logoseguridad{
-    height: 40px;
-    width: 40px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+main .listasindex {
+  color: white;
+  list-style: none;
 }
-
-.logoatencionpersonalizada{
-    height: 40px;
-    width: 40px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+main .listasindex .logoseguridad {
+  height: 40px;
+  width: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
-
-.logovelocidadypuntualidad{
-    width: 40px;
-    height: 40px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+main .listasindex .logoseguridad .logoatencionpersonalizada {
+  height: 40px;
+  width: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
-
-
-.logoexelencia{
-    height: 40px;
-    width: 40px;
+main .listasindex .logoseguridad .logoatencionpersonalizada .logovelocidadypuntualidad {
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
-
+main .listasindex .logoseguridad .logoatencionpersonalizada .logovelocidadypuntualidad .logoexelencia {
+  height: 40px;
+  width: 40px;
+}
 
 /* FOOTER */
-
-footer{
-    height: 100%;
-    background-color: black;
+footer {
+  height: 100%;
+  background-color: black;
+  /* REFERENCIA PARA ICONOS */
 }
-/* TEXTO LOGO FOOTER */
-.cfooter{
-    font-family: 'Noto Sans', sans-serif;
-font-family: 'Satisfy', cursive;
-color: white;
-font-size: 35px;
-margin-top: 100px;
-
+footer div .logosredes {
+  margin-bottom: 40px;
+  /* TEXTO LOGO FOOTER */
 }
-/* TEXTO COPY FOOTER */
-.copyfooter{
-color: white;
-
-
-
+footer div .logosredes .cfooter {
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Satisfy", cursive;
+  color: white;
+  font-size: 35px;
+  margin-top: 100px;
 }
-/* REFERENCIA PARA ICONOS */
-.logowpp{
-    height: 55px;
-    width: 55px;
-    margin-left: 10px;
-
+footer .logowpp {
+  height: 55px;
+  width: 55px;
+  margin-left: 10px;
 }
-
-.logoig{
-    height: 55px;
-    width: 55px;
-    margin-left: 10px;
+footer .logoig {
+  height: 55px;
+  width: 55px;
+  margin-left: 10px;
 }
-
-.logolk{
-    height: 55px;
-    width: 55px; 
-    margin-left: 10px;
+footer .logolk {
+  height: 55px;
+  width: 55px;
+  margin-left: 10px;
 }
-.logoyt{
-    height: 55px;
-    width: 55px;
-    margin-left: 10px;
-}
-
-footer div .logosredes{
-    margin-bottom: 40px;
+footer .logoyt {
+  height: 55px;
+  width: 55px;
+  margin-left: 10px;
 }
 
 /* PAGINA SERVICIOS */
-
-main p{
-    color: white;
-    font-size: 18px;
-    margin-top: 15px;
-
+main p {
+  color: white;
+  font-size: 18px;
+  margin-top: 15px;
+  /* SECTION SERVICIOS */
 }
-
-/* SECTION SERVICIOS */
-
-.h1{
-    color: white;
-    margin-bottom: 15px;
+main p .h1 {
+  color: white;
+  margin-bottom: 15px;
 }
-
-.txtejecutivo{
-    margin-top: 15px;
+main p .txtejecutivo {
+  margin-top: 15px;
 }
-
-.h2{
-    color: white;
-    margin-bottom: 15px;
+main p .h2 {
+  color: white;
+  margin-bottom: 15px;
 }
-
-.txtsanitario{
-    margin-top: 15px;
+main p .txtsanitario {
+  margin-top: 15px;
 }
-
-.h3{
-    color: white;
-    margin-bottom: 15px;
+main p .h3 {
+  color: white;
+  margin-bottom: 15px;
 }
-
-.textcarga{
-    margin-top: 15px;
+main p .textcarga {
+  margin-top: 15px;
 }
-
-.h4{
-    color: white;
-    margin-bottom: 15px;
+main p .h4 {
+  color: white;
+  margin-bottom: 15px;
 }
-
-.txtincendio{
-    margin-top: 15px;
+main p .txtincendio {
+  margin-top: 15px;
 }
 
 /* PAGINA CONTACTO */
-
-
-
-.botonform{
-    margin-top: 25px;
+.botonform {
+  margin-top: 25px;
 }
 
-.mapa{
-
-    padding: 10px;
-    margin: 10px;
-    width: 350px;
-    margin-left: 10px;
-
+.mapa {
+  padding: 10px;
+  margin: 10px;
+  width: 350px;
+  margin-left: 10px;
 }
 
-.informaciondecontactos{
-    margin-top: 10px;
-    color: white;
-    padding: 10px;
-    margin: 10px;
+.informaciondecontactos {
+  margin-top: 10px;
+  color: white;
+  padding: 10px;
+  margin: 10px;
 }
 
-.infocontactos{
-    color: white;
+.infocontactos {
+  color: white;
 }
 
 /* PAGINA NOSOTROS */
-
-
-.imgnosotros{
-    margin-bottom: 15px;
-}
-main div p{
-    margin-top: 30px;
-    margin-bottom: 15px;
-    font-size: 21px;
+.imgnosotros {
+  margin-bottom: 15px;
 }
 
-.txtnosotros{
-    margin-bottom: 15px;
+main div p {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-size: 21px;
 }
 
+.txtnosotros {
+  margin-bottom: 16px;
+}
 
 /* PAGINA NUESTRA FLOTA */
-
-.h1{
-    color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.h1 {
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-
-.especslj60{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    color: white;
-    list-style: none;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+.especslj60 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+  list-style: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-.h2{
-    color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.h2 {
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-.especsb200{
-    color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    list-style: none;
+.especsb200 {
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  list-style: none;
 }
 
-
-.h3{
-    color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.h3 {
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-.especsb407{
-    color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    list-style: none;
+.especsb407 {
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  list-style: none;
 }
 
-
-
-@media screen and (max-width:576px){
-.learindex{
-width: 90%;
-}
-.fotocrew{
+@media screen and (max-width: 576px) {
+  .learindex {
     width: 90%;
+  }
+  .fotocrew {
+    width: 90%;
+  }
 }
-}
 
-
-
+/*# sourceMappingURL=styles.css.map */
