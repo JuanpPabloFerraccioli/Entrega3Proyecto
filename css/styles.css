@@ -10,6 +10,14 @@ body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif 54px;
 }
 
+@media screen and (max-width: 576px) {
+  .learindex {
+    width: 90%;
+  }
+  .fotocrew {
+    width: 90%;
+  }
+}
 /* INDEX */
 /* HEADER */
 /* NAV */
@@ -24,7 +32,7 @@ header nav .navbar-collapse .navbar-nav .nav-item .nav-link {
 main {
   /* SECTION 2 INDEX LISTAS */
 }
-main .textoempresa {
+main div p.textoempresa {
   color: white;
   margin-bottom: 15px;
   font-size: 20px;
@@ -33,29 +41,29 @@ main .h1 {
   color: white;
   margin-bottom: 15px;
 }
-main .listasindex {
+main div ul.listasindex {
   color: white;
   list-style: none;
 }
-main .listasindex .logoseguridad {
+main div li .logoseguridad {
   height: 40px;
   width: 40px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
-main .listasindex .logoseguridad .logoatencionpersonalizada {
+main div li .logoatencionpersonalizada {
   height: 40px;
   width: 40px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
-main .listasindex .logoseguridad .logoatencionpersonalizada .logovelocidadypuntualidad {
+main div li .logovelocidadypuntualidad {
   width: 40px;
   height: 40px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
-main .listasindex .logoseguridad .logoatencionpersonalizada .logovelocidadypuntualidad .logoexelencia {
+main div li .logoexelencia {
   height: 40px;
   width: 40px;
 }
@@ -64,101 +72,101 @@ main .listasindex .logoseguridad .logoatencionpersonalizada .logovelocidadypuntu
 footer {
   height: 100%;
   background-color: black;
-  /* REFERENCIA PARA ICONOS */
 }
-footer div .logosredes {
-  margin-bottom: 40px;
+footer div p.cfooter {
   /* TEXTO LOGO FOOTER */
-}
-footer div .logosredes .cfooter {
   font-family: "Noto Sans", sans-serif;
   font-family: "Satisfy", cursive;
   color: white;
   font-size: 35px;
   margin-top: 100px;
 }
-footer .logowpp {
-  height: 55px;
+footer div .logosredes {
+  margin-bottom: 40px;
+  /* REFERENCIA PARA ICONOS */
+}
+footer div .logosredes .logowpp {
   width: 55px;
+  height: 55px;
   margin-left: 10px;
 }
-footer .logoig {
-  height: 55px;
+footer div .logosredes .logoig {
   width: 55px;
+  height: 55px;
   margin-left: 10px;
 }
-footer .logolk {
-  height: 55px;
+footer div .logosredes .logolk {
   width: 55px;
+  height: 55px;
   margin-left: 10px;
 }
-footer .logoyt {
-  height: 55px;
+footer div .logosredes .logoyt {
   width: 55px;
+  height: 55px;
   margin-left: 10px;
 }
 
 /* PAGINA SERVICIOS */
-main p {
+main {
   color: white;
   font-size: 18px;
   margin-top: 15px;
   /* SECTION SERVICIOS */
 }
-main p .h1 {
+main .h1 {
   color: white;
   margin-bottom: 15px;
 }
-main p .txtejecutivo {
+main div p.txtejecutivo {
   margin-top: 15px;
 }
-main p .h2 {
+main .h2 {
   color: white;
   margin-bottom: 15px;
 }
-main p .txtsanitario {
+main div p.txtsanitario {
   margin-top: 15px;
 }
-main p .h3 {
+main .h3 {
   color: white;
   margin-bottom: 15px;
 }
-main p .textcarga {
+main div p.textcarga {
   margin-top: 15px;
 }
-main p .h4 {
+main .h4 {
   color: white;
   margin-bottom: 15px;
 }
-main p .txtincendio {
+main div p.txtincendio {
   margin-top: 15px;
 }
 
 /* PAGINA CONTACTO */
-.botonform {
+main form div button .botonform {
   margin-top: 25px;
+  background-color: rgb(49, 135, 222);
 }
 
-.mapa {
+section div iframe .mapa {
   padding: 10px;
   margin: 10px;
   width: 350px;
   margin-left: 10px;
 }
 
-.informaciondecontactos {
+section .informaciondecontactos {
   margin-top: 10px;
   color: white;
   padding: 10px;
   margin: 10px;
 }
-
-.infocontactos {
+section .infocontactos {
   color: white;
 }
 
 /* PAGINA NOSOTROS */
-.imgnosotros {
+section .imgnosotros {
   margin-bottom: 15px;
 }
 
@@ -167,54 +175,43 @@ main div p {
   margin-bottom: 15px;
   font-size: 21px;
 }
-
-.txtnosotros {
+main div p .txtnosotros {
   margin-bottom: 16px;
 }
 
 /* PAGINA NUESTRA FLOTA */
-.h1 {
-  color: white;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+main div ul {
+  list-style: none;
 }
 
-.especslj60 {
+li.especslj60 {
   margin-top: 10px;
   margin-bottom: 10px;
   color: white;
   list-style: none;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-
-.h2 {
-  color: white;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-}
-
-.especsb200 {
+li.especslj60 .especsb200 {
   color: white;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   list-style: none;
 }
-
-.h3 {
-  color: white;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-}
-
-.especsb407 {
+li.especslj60 .especsb200 .especsb407 {
   color: white;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   list-style: none;
 }
-
-@media screen and (max-width: 576px) {
-  .learindex {
-    width: 90%;
-  }
-  .fotocrew {
-    width: 90%;
-  }
+li.especslj60 .h1 {
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+li.especslj60 .h2 {
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+li.especslj60 .h3 {
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 /*# sourceMappingURL=styles.css.map */
