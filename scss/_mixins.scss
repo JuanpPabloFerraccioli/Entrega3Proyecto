@@ -3,3 +3,10 @@
     height: $alto;
     margin-left: $margenizq;
 }
+
+@mixin logosindex ($alto, $ancho , $margintop ,$marginbottom){
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

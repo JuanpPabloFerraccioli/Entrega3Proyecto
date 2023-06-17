@@ -20,39 +20,30 @@ header{
 /* SECTION */
 main{
     div p.textoempresa{
-        color: white;
+        color: $color-fontprincipal;
         margin-bottom: 15px;
         font-size: 20px;
     }
     .h1{
-        color:white;
+        color: $color-fontprincipal;
         margin-bottom: 15px;
     }
       /* SECTION 2 INDEX LISTAS */
     div{
         ul.listasindex{
-            color: white;
+            color: $color-fontprincipal;
             list-style: none;
         } 
         li{.logoseguridad{
-            height: 40px;
-            width: 40px;
-            margin-top: 10px;
-            margin-bottom: 10px;
-            
+            @include logosindex(40px,40px,10px,10px)
+
             }
             .logoatencionpersonalizada{
-                height: 40px;
-                width: 40px;
-                margin-top: 10px;
-                margin-bottom: 10px;
+                @include logosindex(40px,40px,10px,10px)
                 
             }
             .logovelocidadypuntualidad{
-                width: 40px;
-                height: 40px;
-                margin-top: 10px;
-                margin-bottom: 10px;
+                @include logosindex(40px,40px,10px,10px)
             }
             .logoexelencia{
                 height: 40px;
@@ -73,7 +64,7 @@ footer{
         /* TEXTO LOGO FOOTER */
         font-family: 'Noto Sans', sans-serif;
         font-family: 'Satisfy', cursive;
-        color: white;
+        color: $color-fontprincipal;
         font-size: 35px;
         margin-top: 100px;
             }
@@ -100,33 +91,33 @@ footer{
 /* PAGINA SERVICIOS */
 
 main {
-    color: white;
+    color: $color-fontprincipal;
     font-size: 18px;
     margin-top: 15px;
     /* SECTION SERVICIOS */
     .h1{
-        color: white;
+        color: $color-fontprincipal;
         margin-bottom: 15px;
     }
     div p.txtejecutivo{
         margin-top: 15px;
     }
     .h2{
-        color: white;
+        color: $color-fontprincipal;
         margin-bottom: 15px;
     }
     div p.txtsanitario{
         margin-top: 15px;
     }
     .h3{
-        color: white;
+        color: $color-fontprincipal;
         margin-bottom: 15px;
     }
     div p.textcarga{
         margin-top: 15px;
     }
     .h4{
-        color: white;
+        color: $color-fontprincipal;
         margin-bottom: 15px;
     }
     div p.txtincendio{
@@ -152,12 +143,12 @@ section div iframe{.mapa{
 }
 section{.informaciondecontactos{
     margin-top: 10px;
-    color: white;
+    color: $color-fontprincipal;
     padding: 10px;
     margin: 10px;
 }
 .infocontactos{
-    color: white;
+    color: $color-fontprincipal;
 }
 
 }
@@ -191,30 +182,30 @@ list-style: none;
 li.especslj60{
     margin-top: 10px;
     margin-bottom: 10px;
-    color: white;
+    color: $color-fontprincipal;
     list-style: none;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-family: $font;
     .especsb200{
         color: white;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-family: $font;
         list-style: none;
         .especsb407{
             color: white;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-family: $font;
             list-style: none;
         }
     }
     .h1{
-        color: white;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: $color-fontprincipal;
+        font-family: $font;
     }
     .h2{
-        color: white;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: $color-fontprincipal;
+        font-family: $font;
     }
     .h3{
-        color: white;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: $color-fontprincipal;
+        font-family: $font;
     }
 
 }
